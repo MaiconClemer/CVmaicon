@@ -30,3 +30,18 @@ nav.navbar-transparente {
   background: white;
   margin: 12px 15px;
 }
+
+.text-shadow-metallic {
+  color: #ffffff; /* White color */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7), 
+               0 0 10px rgba(212, 175, 55, 0.8), 
+               0 0 20px rgba(0, 0, 0, 0.6);
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+}
+.sobre {
+  background: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px;
+}

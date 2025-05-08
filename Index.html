@@ -27,7 +27,7 @@
   <header><!--inicio do cabeçalho-->
     <nav class="navbar navbar-expand-md navbar-light fixed-top navbar-transparente">
       <div class="container">
-        <a href="index.html" class="navbar-brand">
+        <a href="#home" class="navbar-brand">
           <p class="text-white">Maicon Clemer</p>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-principal">
@@ -37,7 +37,7 @@
         <div class="collapse navbar-collapse" id="nav-principal">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="index.html">Sobre</a>
+              <a class="nav-link" href="#sobre">Sobre</a>
             </li>
             <li class="nav-item divisor"></li>
             <li class="nav-item">
@@ -69,33 +69,40 @@
     </div>
   </div>
 </section>
-
-<style>
-  .text-shadow-metallic {
-    color: #ffffff; /* White color */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7), 
-                 0 0 10px rgba(212, 175, 55, 0.8), 
-                 0 0 20px rgba(0, 0, 0, 0.6);
-    font-family: 'Arial', sans-serif;
-    font-weight: bold;
-  }
-</style>
-
+<section id="sobre" class="sobre">
+  <div class="container text-center">
+    <h2 class="display-4" style="font-family: 'Arial', sans-serif; font-weight: bold; color: #333;">Sobre Mim</h2>
+    <p class="lead" style="font-family: 'Verdana', sans-serif; color: #555; line-height: 1.6;">
+      Tenho <span id="idade"></span> anos. Sou de Brusque, em Santa Catarina. Sou casado e ainda não tenho filhos.
+    </p>
+    <script>
+      const birthDate = new Date(1995, 11, 30); // Mês é 0-indexado, então 11 representa dezembro
+      const today = new Date();
+      let age = today.getFullYear() - birthDate.getFullYear();
+      const monthDiff = today.getMonth() - birthDate.getMonth();
+      if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < birthDate.getDate())) {
+        age--;
+      }
+      document.getElementById("idade").textContent = age;
+    </script>
+  </div>
+  <div class="row">
+    <div class="col-md-6 text-center">
+      <img src="Imagens/WhatsApp Image 2025-04-25 at 12.23.15.JPG" alt="Maicon Clemer" class="img-fluid mb-4" style="width: 300px; border-radius: 30px;">
+    </div>
+    <div class="col-md-6 text-center">
+      <h3 style="font-family: 'Arial', sans-serif; font-weight: bold; color: #333;">Minha Jornada</h3>
+      <p style="font-family: 'Verdana', sans-serif; color: #555; text-align: justify; line-height: 1.5; font-size: 0.9rem;"></p>
+        Sou desenvolvedor em formação, focado em front-end, com dedicação diária aos estudos e projetos práticos. Minha base técnica vem da experiência com metalurgia de precisão e seis semestres de Engenharia Mecânica, o que me deu facilidade com lógica e resolução de problemas.
+        <br><br>
+        Tenho me aprofundado na criação de interfaces funcionais e bem estruturadas, sempre buscando unir design e usabilidade. Também me interesso por áreas criativas como 3D e corte a laser, o que alimenta meu lado empreendedor.
+        <br><br>
+        Trabalho bem de forma autônoma, mas valorizo o aprendizado em equipe. Busco oportunidades que me permitam evoluir como desenvolvedor, aplicar ideias e crescer junto com o time.
+      </p>
+    </div>
+  </div>
 </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</section>
 
   <div class="container hero text-white allign-items-center justify-content-center text-left">
     <h1>Maicon Clemer</h1>

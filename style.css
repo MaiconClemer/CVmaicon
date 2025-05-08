@@ -1,6 +1,11 @@
 body {
-  background:linear-gradient(135deg, #0a0e2a, #1c1c3a, #ff6b3c);
-  background-attachment: fixed;
+  
+  background: url(Imagens/ChatGPT%20Image%207%20de%20mai.%20de%202025,%2016_14_34.png) no-repeat center center fixed, 
+              linear-gradient(135deg, #0a0e2a, #1c1c3a, #ff6b3c) no-repeat;
+}
+
+html, body #home {
+  height: 100%;
 }
 
 nav.navbar-transparente {

@@ -29,18 +29,68 @@ nav.navbar-transparente {
   background: white;
   margin: 12px 15px;
 }
-
-.text-shadow-metallic {
-  color: #ffffff; /* White color */
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7), 
-               0 0 10px rgba(212, 175, 55, 0.8), 
-               0 0 20px rgba(0, 0, 0, 0.6);
-  font-family: 'Arial', sans-serif;
+/* Estilo para o título "PROJECTS" */
+.project-title {
+  background: linear-gradient(0deg, #ff6a00,  #fca849); /* Laranja vibrante */
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 2rem;
 }
-.sobre {
-  background: rgb(255, 255, 255);
-  padding: 20px;
+
+/* Estilo do card de carregamento */
+.card {
+  background-color: #2a2a2a; /* Cinza escuro */
+  border-radius: 20px;
+  border: none;
+  box-shadow: 0 0 20px rgba(255, 106, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 25px rgba(255, 106, 0, 0.4);
+}
+
+/* Spinner com animação mais fluida */
+.spinner-border {
+  animation: spin 2s linear infinite;
+}
+
+/* Texto mais leve e elegante */
+.card p {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  color: #ccc;
+}
+.experience-section {
+  color: #fff;
+}
+
+.experience-section h2 {
+  font-size: 2.5rem;
+}
+
+.company-logo {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
   border-radius: 10px;
-  margin: 20px;
+  background-color: #fff;
+  padding: 4px;
 }
+.experience-section h2 {
+ background: linear-gradient(0deg, #1802e6,  #a2a7e5); /* Laranja vibrante */
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 2rem;
+}
+
+

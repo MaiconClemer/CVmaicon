@@ -82,7 +82,7 @@ nav.navbar-transparente {
   background-color: #fff;
   padding: 4px;
 }
-.experience-section h2 {
+.experience-section h2, education-section h2 {
  background: linear-gradient(0deg, #1802e6,  #4955fc); /* Laranja vibrante */
   background-clip: text;
   -webkit-background-clip: text;

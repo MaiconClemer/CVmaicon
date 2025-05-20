@@ -40,6 +40,16 @@ nav.navbar-transparente {
   letter-spacing: 2px;
   font-size: 2rem;
 }
+.educarion-section {
+  background: linear-gradient(0deg, #ff6a00,  #fca849); /* Laranja vibrante */
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 2rem;
+}
 
 /* Estilo do card de carregamento */
 .card {
@@ -82,7 +92,18 @@ nav.navbar-transparente {
   background-color: #fff;
   padding: 4px;
 }
-.experience-section h2, education-section h2 {
+.experience-section h2 {
+ background: linear-gradient(0deg, #1802e6,  #4955fc); /* Laranja vibrante */
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 2rem;
+}
+
+.contact-section {
  background: linear-gradient(0deg, #1802e6,  #4955fc); /* Laranja vibrante */
   background-clip: text;
   -webkit-background-clip: text;

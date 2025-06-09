@@ -114,4 +114,50 @@ nav.navbar-transparente {
   font-size: 2rem;
 }
 
+/* Estilo interno para os cards de projetos */
+#projects .card {
+  background: #1e1e1e;
+  border-radius: 20px;
+  padding: 2rem;
+  box-shadow: 0 4px 20px rgba(255, 106, 0, 0.25);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+}
+
+#projects .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 30px rgba(255, 106, 0, 0.4);
+}
+
+#projects .card h5 {
+  background: linear-gradient(90deg, #ff6a00, #fca849);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+#projects .card p {
+  color: #aaa;
+  font-size: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+#projects .btn {
+  border-radius: 30px;
+  padding: 0.5rem 1.5rem;
+  font-weight: 600;
+  border-color: #ff6a00;
+  color: #ff6a00;
+  transition: all 0.3s ease;
+}
+
+#projects .btn:hover {
+  background-color: #ff6a00;
+  color: #1e1e1e;
+  box-shadow: 0 0 10px rgba(255, 106, 0, 0.4);
+}
+
 
